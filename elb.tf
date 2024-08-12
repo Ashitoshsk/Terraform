@@ -1,7 +1,7 @@
 provider "aws" {
   region     = "ap-south-1"
-  access_key = "AKIAYS2NSRDTTYLSQZIB"
-  secret_key = "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"
+  access_key = "AKIAYkkNSRDTTYLSQZIB"
+  secret_key = "XBzeb3//3IOYPo4rlIo9IOqfZ0CF8iKCkt+HrbgH"
 }
 #Name of the Load Balancer
 variable "elb_name" {
@@ -46,3 +46,4 @@ resource "aws_elb" "bar" {
     Name = "terraform-elb"
   }
 }
+
